@@ -54,6 +54,19 @@ The pipeline is parameterized to handle different data streams and queries, ensu
    - Check the Lakehouse table (`ActivityDetailLogs`) and CSV files for logged metadata.
    - Query the target KQL database to ensure data integrity.
 
+![Screenshot](PipelineImages/1.PipelineParameters.png)
+
+![Screenshot](PipelineImages/2.ForEachActivitySettings.png)
+
+![Screenshot](PipelineImages/3.ForEachActivityCopyDataActivityGeeneral.png)
+
+![Screenshot](PipelineImages/4.ForEachActivityCopyDataActivitySource.png)
+
+![Screenshot](PipelineImages/5.ForEachActivityCopyDataActivityDestination.png)
+
+![Screenshot](PipelineImages/6.NotebookSettings.png)
+
+
 ## Explanation of Code in Notebook Activity
 The notebook (`LogNotebook`) processes metadata from the pipeline’s Copy activity and logs it for auditing and analysis. Below is a detailed explanation of the code:
 
